@@ -16,7 +16,7 @@ And the next one is to say user is entering secret_half2.txt
 0050   78 74 0a                                          xt.
 ```
 You will get it inside the file.
-คือ OGVlZTJiZjJkNzE4OTMwYzliMmZiZWJhZTF9Cg==(It is encoded in base64.)
+OGVlZTJiZjJkNzE4OTMwYzliMmZiZWJhZTF9Cg==(It is encoded in base64.)
 8eee2bf2d718930c9b2fbebae1}
 
 ```
@@ -28,10 +28,11 @@ You will get it inside the file.
 
 Previously, the server would require login first.
 26 21.402645220 HTTP post (It's the admin password.)
-ZmxhZ3tqdW5pb3JfbmV0MV9kZDEwNjQK
-flag{junior_net1_dd1064
 
+ZmxhZ3tqdW5pb3JfbmV0MV9kZDEwNjQ (It is encoded in base64.)
+flag{junior_net1_dd1064
+```
 0000   5a 6d 78 68 5a 33 74 71 64 57 35 70 62 33 4a 66   ZmxhZ3tqdW5pb3Jf
 0010   62 6d 56 30 4d 56 39 6b 5a 44 45 77 4e 6a 51 4b   bmV0MV9kZDEwNjQK
-
+```
 flag{junior_net1_dd10648eee2bf2d718930c9b2fbebae1}
