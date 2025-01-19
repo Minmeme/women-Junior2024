@@ -1,6 +1,7 @@
 i use strings hippo 
 
 you see
+
 Enter the password: 
 No password entered. Access denied.
 hippo_so_cute // this chcek password = hippo_so_cute
