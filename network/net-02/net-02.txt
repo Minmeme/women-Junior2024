@@ -1,0 +1,11 @@
+เอาตัวที่เข้ารหัสไว้ไป 
+m3/oQS/FYXuPgKEsoCXO2NCBxkEAtMycpnl+2vY0VMaOgAGuyciaQNzYAJtSF/JpRILcmDOHJ6TRyFVw3OoEGWcSKydSbneDVgQXIEptRh0z4kvW/5ixC9o1T0Q0Yn2oH/g3mxVIng1NVzMJzENlOO1vUPtn8ktdxvW939Ovt0h4Z8HkxAwDBAsvFWA6AIALhXhb9Ih3UWx/xQoQfrf468sQldMUS29QyOHCPhpAi1CPIikiXx2Teid7AFagvFcJ2OzTax8pg3VzPv/kLnzkMxclLJA8e7/O3Mj1S+08MzU9HaDJi4Emxu+L8LoYfQHVqxkkFi3pI7v2bq/7kBWQLA==
+
+เช็คอัลกอรึทึมของ PRIVATE KEY ก่อน
+openssl rsa -in private_key.pem -text -noout 
+
+from base64
+rsa decrypt rsa-oaep sha-256
+
+flag{junior_net2_8a95ca672a65f751efd70d1340cf835a}
+

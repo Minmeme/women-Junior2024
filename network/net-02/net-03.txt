@@ -1,0 +1,9 @@
+สั้งเกนเพนเทนของไฟล์ จะสังเกตใด้ว่าแฮกเกอร์พยายามจะส่งไรบสงอย่างผ่าน
+URLใช้คำสั้ง ip.src == 'ip' เพื่อพิวเตอร์ให้หน่อยแค่domianของแฮกเกอร์
+ใช้คำสั้ง
+tshark -r junior_net3.pcapng -Y "ip.src == 192.168.191.111" -T fields -E separator=',' -e dns.qry.name > output.txt\
+เพื่อเอาชื่อโดเมนออกมา
+
+ใช้คำสั้งนี้เท่อลบ .c2.sth.sh ออกจาก output.txt
+sed -i 's/\.c2\.sth\.sh//g' output.txt
+ลบแล้ว แปลงเป็นbase64 แล้วนำไปแปลงภาพ
